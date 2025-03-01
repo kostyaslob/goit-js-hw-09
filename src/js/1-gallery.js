@@ -87,9 +87,9 @@ function createCardsMarkup(cards) {
     }).join("");
 }
 
-new SimpleLightbox('.gallery a', {
+new SimpleLightbox(".gallery a", {
     captionsData: "alt",
     captionDelay: 250,
-    navText: ['←','→'], 
+    navText: ["←","→"], 
 });
 
